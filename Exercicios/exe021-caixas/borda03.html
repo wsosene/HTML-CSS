@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda personalizada</title>
+    <style>
+        h1 {
+            border: 22px solid black; /*Borda*/
+            padding: 20px;/*Espaçamento interno*/
+            border-image-source: url(Borda.png);/*Adiciona a imagen*/
+            border-image-slice: 15;/*Fatia a borda*/
+            border-image-repeat: repeat;/*Repetir o fatiamento*/
+            /*Usando border-image: url('borda.png') 15 repet vc elimina as linha de cima */
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda</h1>
+    
+</body>
+</html>
